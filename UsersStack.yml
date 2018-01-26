@@ -1,0 +1,11 @@
+version: "3"
+services:
+  web:
+    image: users_app
+    deploy:
+      replicas: 2
+    networks:
+      - proxy
+networks:  
+  proxy:
+    external: true

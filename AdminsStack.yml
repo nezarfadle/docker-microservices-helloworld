@@ -1,0 +1,11 @@
+version: "3"
+services:
+  web:
+    image: admins_app
+    deploy:
+      replicas: 2
+    networks:
+      - proxy
+networks:  
+  proxy:
+    external: true

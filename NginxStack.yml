@@ -1,0 +1,11 @@
+version: "3"
+services:
+  proxy:
+    image: local-nginx
+    ports:
+      - 9090:80
+    networks:
+      - proxy
+networks:  
+  proxy:
+    external: true
