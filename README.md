@@ -1,10 +1,15 @@
-# Clone The Repository
+# Stack Infrastructure 
+
+This is what you are going to build
+![stack](/diagram.png?raw=true "Stack")
+
+# Clone the Repository
 ```
 git clone https://github.com/nezarfadle/docker-microservices-helloworld.git
 cd docker-microservices-helloworld
 ```
 
-# Build The Stack Images
+# Build the Stack Images
 
 Before you start the Microservices Stack we need to build the Applications Images
 
@@ -15,7 +20,7 @@ docker build -t users_app:latest . --file Users.Dockerfile
 
 # Start Microservices Stack
 
-Here is where the fun pars begins
+Here is where the fun part begins
 
 ```bash
 docker stack deploy -c NginxStack.yml proxy
