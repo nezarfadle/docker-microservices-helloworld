@@ -1,3 +1,10 @@
+# Before Start
+
+I will assume that you are already enabled the ```Swarm Mode``` in Docker, if not, enable it:
+```
+docker swarm init
+```
+
 # Stack Infrastructure 
 
 This is what you are going to build
