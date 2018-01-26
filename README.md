@@ -1,4 +1,4 @@
-# Clone Repository
+# Clone The Repository
 ```
 git clone https://github.com/nezarfadle/docker-microservices-helloworld.git
 cd docker-microservices-helloworld
