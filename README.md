@@ -13,7 +13,7 @@ docker build -t admins_app:latest . --file Admins.Dockerfile
 docker build -t users_app:latest . --file Users.Dockerfile
 ```
 
-# Start Microservices
+# Start Microservices Stack
 
 Here is where the fun pars begins
 
