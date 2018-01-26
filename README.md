@@ -4,7 +4,7 @@ git clone https://github.com/nezarfadle/docker-microservices-helloworld.git
 cd docker-microservices-helloworld
 ```
 
-# Build images
+# Build The Stack Images
 
 Before you start the Microservices Stack we need to build the Applications Images
 
