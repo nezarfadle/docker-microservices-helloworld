@@ -21,6 +21,7 @@ cd docker-microservices-helloworld
 Before you start the Microservices Stack we need to build the Applications Images
 
 ```bash
+docker build -t local-nginx:latest . --file Nginx.Dockerfile
 docker build -t admins_app:latest . --file Admins.Dockerfile
 docker build -t users_app:latest . --file Users.Dockerfile
 ```
