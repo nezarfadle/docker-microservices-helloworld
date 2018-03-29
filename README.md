@@ -3,6 +3,7 @@
 I will assume that you are already enabled the ```Swarm Mode``` in Docker, if not, enable it:
 ```
 docker swarm init
+docker network create --driver=overlay --attachable proxy
 ```
 
 # Stack Infrastructure 
